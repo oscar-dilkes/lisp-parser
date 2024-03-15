@@ -31,7 +31,7 @@ The project is structured into several key components, each residing in its own 
 
 ### Parser and Interpreter (`lpi.h/c`)
 
-- **Tokenizing**: The `tokeniser` function breaks down input files into tokens recognizable by the parser, handling different types of tokens (parentheses, literals, strings, etc.).
+- **Tokenising**: The `tokeniser` function breaks down input files into tokens recognizable by the parser, handling different types of tokens (parentheses, literals, strings, etc.).
 - **Parsing**: Functions such as `prog`, `instrcts`, and `instrct` parse the tokenised input according to the defined grammar, building an abstract syntax tree (AST) for interpretation.
 - **Interpreting**: The interpretation process is designed to execute the parsed LISP code, although this is incomplete thus far.
 
